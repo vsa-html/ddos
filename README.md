@@ -11,15 +11,23 @@
 
 ## 🚀 Fitur Utama
 
-- ✅ **DDOS WEB** — Serang website dengan **8 metode** (UDP Flood Ultimate, DNS Amplification, ICMP Flood, TCP SYN Flood, SSL Renegotiation, HTTP Flood, HTTP POST Flood, Slowloris).
-- ✅ **DDOS WIFI** — Serang jaringan lokal dengan **13 metode** (UDP Flood Ultimate, UDP Fragment Flood, UDP Port Rotation, Raw Socket Flood, TCP SYN Flood, TCP ACK Flood, TCP FIN Flood, TCP RST Flood, ICMP Flood, ICMP Smurf, IP Spoof UDP, Broadcast Flood, Multicast Flood).
-- ✅ **CEK WEB** — Analisis target sebelum serangan (deteksi proteksi: Cloudflare, Vercel, Nginx, Apache).
-- ✅ **Auto-Detect OS** — Scan jaringan + deteksi otomatis OS device (Windows, Android, iOS, Linux, dll) + versi kalau bisa.
-- ✅ **Multi-threading** — Atur jumlah thread hingga ribuan.
-- ✅ **Durasi Fleksibel** — Tentukan durasi serangan atau jalankan tanpa batas (*unlimited*).
-- ✅ **CTRL + C** — Menghentikan serangan cukup dengan menekan `CTRL + C`.
-- ✅ **Auto-Detect Gateway** — Gateway otomatis ditulis sebagai **"Gateway (WiFi)"**.
-- ✅ **Info Real-time** — Jam, hari/tanggal, dan TikTok owner di banner.
+- **DDOS WEB** — Serang website dengan **8 metode** (UDP Flood Ultimate, DNS Amplification, ICMP Flood, TCP SYN Flood, SSL Renegotiation, HTTP Flood, HTTP POST Flood, Slowloris).
+  
+- **DDOS WIFI** — Serang jaringan lokal dengan **13 metode** (UDP Flood Ultimate, UDP Fragment Flood, UDP Port Rotation, Raw Socket Flood, TCP SYN Flood, TCP ACK Flood, TCP FIN Flood, TCP RST Flood, ICMP Flood, ICMP Smurf, IP Spoof UDP, Broadcast Flood, Multicast Flood).
+  
+- **CEK WEB** — Analisis target sebelum serangan (deteksi proteksi: Cloudflare, Vercel, Nginx, Apache).
+  
+- **Auto-Detect OS** — Scan jaringan + deteksi otomatis OS device (Windows, Android, iOS, Linux, dll) + versi kalau bisa.
+  
+- **Multi-threading** — Atur jumlah thread hingga ribuan.
+  
+- **Durasi Fleksibel** — Tentukan durasi serangan atau jalankan tanpa batas (*unlimited*).
+  
+- **CTRL + C** — Menghentikan serangan cukup dengan menekan `CTRL + C`.
+
+- **Auto-Detect Gateway** — Gateway otomatis ditulis sebagai **"Gateway (WiFi)"**.
+  
+- **Info Real-time** — Jam, hari/tanggal, dan TikTok owner di banner.
 
 ---
 
@@ -35,42 +43,43 @@ pip install requests
 
 ---
 
-📁 Instalasi Git
+## 📁 Instalasi Git
 
 ```bash
-git clone https://github.com/vsa-html/ultra-ddos.git
+git clone https://github.com/vsa-html/ddos.git
 ```
 
 ---
 
-📱 Jalankan
+## 📱 Jalankan
 
 ```bash
-cd ultra-ddos
-python main.py
+cd ddos
+python ddos.py
 ```
 
 ---
 
-📦 Persyaratan
+## 📦 Persyaratan
 
-· Modul requests
+· Modul `requests`
+
 · (Opsional) Hak akses root untuk ICMP Flood, Raw Socket, IP Spoof, dll.
-· Aplikasi Termux
+
+· Aplikasi `Termux`
 
 ---
 
-📊 Metode Serangan DDOS WEB (8 Metode)
+## 📊 Metode Serangan DDOS WEB (8 Metode)
 
-No Metode Keterangan
-1 UDP Flood Ultimate Terkuat, paket besar, burst cepat
-2 DNS Amplification Amplifikasi 30-60x lipat
-3 ICMP Flood Banjir ping (butuh root)
-4 TCP SYN Flood Klasik, half-open connections
-5 SSL Renegotiation Makan CPU target HTTPS
-6 HTTP Flood Ampuh buat web server
-7 HTTP POST Flood Ampuh buat form/API
-8 Slowloris Makan koneksi server
+1- UDP Flood Ultimate Terkuat, paket besar, burst cepat
+2- DNS Amplification Amplifikasi 30-60x lipat
+3- ICMP Flood Banjir ping (butuh root)
+4- TCP SYN Flood Klasik, half-open connections
+5- SSL Renegotiation Makan CPU target HTTPS
+6- HTTP Flood Ampuh buat web server
+7- HTTP POST Flood Ampuh buat form/API
+8- Slowloris Makan koneksi server
 
 ---
 
